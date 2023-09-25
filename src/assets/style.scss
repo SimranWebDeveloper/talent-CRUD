@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.stages-section,.list-section{
+    width: 100%;
+    height: 100vh;
+    background:url('../assets/img/Rectangle\ 24.png') center/cover;
+
+}
+
+.overflow-y-scroll::-webkit-scrollbar {
+    width: 5px;
+
+  }
+  
+  .overflow-y-scroll::-webkit-scrollbar-thumb {
+    background-color: #038477;
+    border-radius: 30px;
+  }
+
+  input[type='radio'] {
+    accent-color: #038477;
+}
+
+input[type='checkbox'] {
+  accent-color: #038477;
+}
